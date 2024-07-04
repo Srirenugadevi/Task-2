@@ -1,0 +1,46 @@
+body{
+    background-image: url(../assert/std.jpg);
+    
+}
+button{
+    border: 5px solid rgb(182, 200, 67);
+}
+button :hover{
+    color:bisque;
+}
+h1{
+    text-align: center;
+
+}
+input:focus{
+    background-color: antiquewhite;
+}
+.form1{
+    width:30%;
+    margin:0 auto;
+    border-style:solid;
+    border-width:5px;
+    height: 350px;
+}
+@media ( min-width:375px ) and ( max-width : 667px)
+{
+    {
+       font-size: 112%;
+       width: 90%;
+       height:350px;
+       margin: 0%;
+
+    }
+}
+@media ( min-width:663px ) and ( max-width : 669px)
+{
+    {
+       font-size: 112%;
+       width: 51%;
+       height:350px;
+       margin: 0%;
+
+    }
+}
+
+
